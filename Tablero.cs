@@ -84,30 +84,6 @@ namespace TareasC_
             return Casillas;
         }
 
-        
-
-
-
-
-
-
-
-
-
-        public void ColocarReina(int fila, int columna)
-        {
-            if (fila >= 0 && fila < 8 && columna >= 0 && columna < 8)
-            {
-                Casillas[fila, columna] = 1; // Coloca una reina
-            }
-        }
-        public void QuitarReina(int fila, int columna)
-        {
-            if (fila >= 0 && fila < 8 && columna >= 0 && columna < 8)
-            {
-                Casillas[fila, columna] = 0; // Quita la reina
-            }
-        }
         public void MostrarTablero()
         {
             for (int i = 0; i < 8; i++)
